@@ -82,7 +82,7 @@ function Navbar() {
   const navLinks = useMemo(() => [
     { label: t('nav.chiSono'), href: '/chi-sono' },
     { label: t('nav.servizi'), href: '/servizi' },
-    { label: t('nav.petFriendly'), href: '/#petfriendly' },
+    { label: t('nav.petFriendly'), href: '/servizi#servizi-pet' },
     { label: t('nav.faq'), href: '/#faq' },
     { label: t('nav.contatti'), href: '#contatti' },
   ], [t]);
@@ -275,7 +275,7 @@ function Hero() {
             }}
           >
             {t('hero.title2')}
-            <em>{animateWord(t('hero.title2em'))}</em>
+            <em style={{ whiteSpace: 'nowrap', display: 'inline-block' }}>{animateWord(t('hero.title2em'))}</em>
           </span>
         </h1>
 
@@ -1188,7 +1188,7 @@ function Footer() {
   const footerNav = useMemo(() => [
     { label: t('nav.chiSono'), href: '/chi-sono' },
     { label: t('nav.servizi'), href: '/servizi' },
-    { label: t('nav.petFriendly'), href: '/#petfriendly' },
+    { label: t('nav.petFriendly'), href: '/servizi#servizi-pet' },
     { label: t('nav.faq'), href: '/#faq' },
     { label: t('nav.contatti'), href: '#contatti' },
   ], [t]);
@@ -1279,12 +1279,34 @@ function HomePage() {
 }
 
 // ============================================================
+//  SCROLL TO HASH — gestisce navigazione con #anchor
+// ============================================================
+function ScrollToHash() {
+  const { hash, pathname } = useLocation();
+
+  useEffect(() => {
+    if (!hash) return;
+    // piccolo delay per aspettare il render della pagina
+    const timer = setTimeout(() => {
+      const el = document.querySelector(hash);
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }, 300);
+    return () => clearTimeout(timer);
+  }, [hash, pathname]);
+
+  return null;
+}
+
+// ============================================================
 //  APP ROOT
 // ============================================================
 export default function App() {
   return (
     <BrowserRouter>
       <div className="min-h-screen" style={{ backgroundColor: COLORS.ivory }}>
+        <ScrollToHash />
         <Navbar />
         <LanguageSwitcher variant="floating" />
         <Routes>
