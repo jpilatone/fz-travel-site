@@ -1,0 +1,134 @@
+{
+  "hero": {
+    "eyebrow": "Travel Consultant ·\u00a0Bespoke",
+    "title1": "Your journey,",
+    "title2": "exactly as it should ",
+    "title2em": "be.",
+    "subtitle": "Bespoke travel consulting. From the first idea to the last detail.",
+    "cta": "Request a consultation"
+  },
+  "chiSonoIntro": {
+    "eyebrow": "About Me",
+    "titleBold": "This project stems from ",
+    "titleAccent": "Francesco's journey.",
+    "tagLabel": "Travel Consultant",
+    "tagName": "Francesco",
+    "imgAlt": "Francesco — Travel Consultant",
+    "p1": "It all started from a personal need. I wanted to organise my trips the right way, taking care of every detail.",
+    "p2": "Over time I've travelled across every continent — Europe, Asia, the Americas, Africa — building very different experiences, always driven by a real need.",
+    "p3": "Today this is how I work: I listen, I ask questions, I try to understand what you're really looking for, and I build a trip around you.",
+    "cta": "Discover my story"
+  },
+  "features": {
+    "eyebrow": "How I Can Help",
+    "titleBold": "Every detail, ",
+    "titleAccent": "crafted for you.",
+    "items": [
+      {
+        "eyebrow": "01 — All About You",
+        "title": "Bespoke Itineraries",
+        "desc": "I help you design itineraries built around the way you travel, your pace, and what you want to experience."
+      },
+      {
+        "eyebrow": "02 — Travel With Your Best Friend",
+        "title": "Pet-Friendly Trips",
+        "desc": "I often travel with my dog and I know what it means to never leave behind those who are part of your life."
+      },
+      {
+        "eyebrow": "03 — Travel Your Way",
+        "title": "Couples, Solo, or Group Trips",
+        "desc": "Every trip has different dynamics. I work with the people who are travelling in mind."
+      },
+      {
+        "eyebrow": "04 — Hand-Picked For You",
+        "title": "Selected Stays & Experiences",
+        "desc": "I search for the most suitable accommodations, evaluate and compare them, and help you find your way."
+      }
+    ]
+  },
+  "philosophy": {
+    "subtitle": "Most trips are built around standard packages, pre-made offers, and generic solutions.",
+    "titleBold": "I build the journey",
+    "titleAccent": "around you.",
+    "date": "Since 2019 — Italy and beyond",
+    "cta": "Book your consultation"
+  },
+  "protocol": {
+    "eyebrow": "The Method",
+    "titleBold": "How I work ",
+    "titleAccent": "with you.",
+    "steps": [
+      {
+        "title": "Share your wishes",
+        "desc": "Everything starts with your ideas. Tell me what you have in mind: destinations, dates, special experiences you'd like to include."
+      },
+      {
+        "title": "Receive your bespoke proposal",
+        "desc": "We translate your wishes into a personalised itinerary. A no-obligation proposal, designed to inspire you."
+      },
+      {
+        "title": "Refine and confirm",
+        "desc": "Together we fine-tune the details until every element fits your vision perfectly. Every choice, carefully crafted."
+      },
+      {
+        "title": "Travel with peace of mind",
+        "desc": "From the moment you depart until you return, I'm by your side to make sure every part of your trip goes smoothly."
+      }
+    ],
+    "cta1": "BOOK A CALL",
+    "cta2": "CONTACT ME VIA EMAIL"
+  },
+  "pet": {
+    "eyebrow": "Pet-Friendly",
+    "titleBold": "Why leave at home the one who makes you feel ",
+    "titleAccent": "truly on holiday?",
+    "desc": "Travelling with your dog is possible and can be wonderful, if everything is organised the right way. As a <1>Travel Consultant</1> specialised in pet-friendly trips, I help you build bespoke experiences for you and your four-legged travel companion.",
+    "bullets": [
+      "Custom itinerary creation",
+      "Quality pet-friendly accommodation search",
+      "Individual and personalised consulting"
+    ],
+    "badgeLabel": "Specialisation",
+    "badgeValue": "Pet-Friendly Travel",
+    "imgAlt": "Pet-friendly trips with your dog",
+    "cta": "Discover Pet-Friendly trips"
+  },
+  "social": {
+    "titleBold": "Every journey, ",
+    "titleAccent": "a story to live.",
+    "desc": "Every destination tells a story. Follow me on social media to discover the trips I create and the experiences I recommend."
+  },
+  "faq": {
+    "eyebrow": "Frequently Asked Questions",
+    "titleBold": "Got questions? ",
+    "titleAccent": "I have answers.",
+    "subtitle": "Here are the answers to the most common questions. If you have other curiosities, write to me through the contact form.",
+    "cta": "Contact me for more questions →",
+    "items": [
+      {
+        "q": "What kind of trips do you handle?",
+        "a": "I design bespoke itineraries for couple, family, solo, or group trips; short weekend getaways or longer journeys. I also handle pet-friendly trips in Italy."
+      },
+      {
+        "q": "How does the consultation work?",
+        "a": "It always starts with an introductory consultation. Based on your needs, we define the level of support together and build the trip step by step."
+      },
+      {
+        "q": "Do you sell travel packages?",
+        "a": "No. I don't offer pre-packaged solutions: I design bespoke experiences and help you make informed choices, building the trip around your needs."
+      },
+      {
+        "q": "Do you book for me?",
+        "a": "No. I help you design the trip, evaluate options, and navigate your choices. Bookings are made directly by the client."
+      },
+      {
+        "q": "How much does a consultation cost?",
+        "a": "The cost depends on the type of trip and the level of support required. It's clearly defined after the introductory consultation."
+      },
+      {
+        "q": "Do you also handle pet-friendly trips?",
+        "a": "Yes. I often travel with my dog and I know how much the details matter. I handle pet-friendly trips in Italy with dedicated attention: genuinely suitable accommodations, services designed for the animal's wellbeing, and an experience crafted in every aspect."
+      }
+    ]
+  }
+}

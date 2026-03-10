@@ -1,0 +1,43 @@
+{
+  "hero": {
+    "eyebrow": "About Me",
+    "title1": "The journey behind",
+    "title2": "the method.",
+    "subtitle": "The story of how a way of travelling became a way of working."
+  },
+  "story": {
+    "eyebrow": "Origins",
+    "titleBold": "It all started from a ",
+    "titleAccent": "need.",
+    "imgAlt": "Francesco — Travel Consultant",
+    "p1": "I wanted to organise my trips consciously, taking care of every detail. Over time, this attention became a method.",
+    "p2": "While travelling, I realised that every person travels differently.\nSome seek an itinerant trip, some a couple's getaway, some an experience with friends, or simply a weekend to truly unwind; that's why I never believed in standard solutions.",
+    "p3": "I've travelled from Europe to Asia, through the Americas and Africa, learning over time what truly makes a difference when you travel.",
+    "cta": "Travel with me"
+  },
+  "petSection": {
+    "eyebrow": "Travel Companions",
+    "titleBold": "Travel without giving up ",
+    "titleAccent": "who you love.",
+    "imgAlt": "Francesco with Tyrion, his English bulldog",
+    "desc": "An important part of this journey is also tied to pet-friendly trips. I often travel with my English bulldog and I know what it means to want to travel without giving up those who are part of your life. This taught me even more how much the quality of choices and the attention dedicated to every aspect of the experience truly matters.",
+    "cta": "Discover Pet-Friendly trips"
+  },
+  "approach": {
+    "eyebrow": "The Approach",
+    "titleBold": "Listening, dialogue, ",
+    "titleAccent": "value.",
+    "desc": "My approach starts with listening, with questions, with trying to understand what you're really looking for, to build the trip around you.\nFrom the dialogue, the idea transforms into an experience of real value.",
+    "steps": [
+      { "title": "Listening", "desc": "We start from you: your ideas, your needs, your way of travelling." },
+      { "title": "Proposal", "desc": "I build a bespoke itinerary, designed around what matters to you." },
+      { "title": "Dialogue", "desc": "We review every detail together, until we find the perfect balance." },
+      { "title": "Experience", "desc": "The trip takes shape. You depart, I stay by your side." }
+    ]
+  },
+  "statement": {
+    "title": "The goal is clear.",
+    "subtitle": "Help you build your holiday, exactly as it should be.",
+    "cta": "Book your first free consultation"
+  }
+}

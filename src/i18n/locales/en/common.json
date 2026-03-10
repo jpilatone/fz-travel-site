@@ -1,0 +1,52 @@
+{
+  "nav": {
+    "chiSono": "About",
+    "servizi": "Services",
+    "petFriendly": "Pet-Friendly",
+    "faq": "FAQ",
+    "contatti": "Contact",
+    "consulenza": "Get in Touch",
+    "richiediConsulenza": "Request a consultation",
+    "apriMenu": "Open menu"
+  },
+  "footer": {
+    "tagline": "Bespoke travel consulting. From the first idea to the last detail.",
+    "available": "AVAILABLE RIGHT NOW",
+    "navigazione": "Navigation",
+    "social": "Social",
+    "copyright": "FZ Travel Consulting. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "cookie": "Cookie Policy"
+  },
+  "contacts": {
+    "eyebrow": "Let's Talk",
+    "title": "Let's talk about your",
+    "titleAccent": "next trip.",
+    "subtitle": "Fill out the form to request a free introductory consultation. I'll get back to you within 24 hours.",
+    "labelFirstName": "First Name",
+    "labelLastName": "Last Name",
+    "labelEmail": "Email",
+    "labelPhone": "Phone",
+    "labelTravelType": "Travel Type",
+    "labelMessage": "Message",
+    "placeholderFirstName": "John",
+    "placeholderLastName": "Smith",
+    "placeholderEmail": "email@example.com",
+    "placeholderPhone": "+1 555 1234567",
+    "placeholderMessage": "Tell me about your next trip...",
+    "selectDefault": "Select...",
+    "optionCouple": "Couple",
+    "optionFamily": "Family",
+    "optionFriends": "Friends",
+    "optionSolo": "Solo",
+    "optionPet": "Pet-Friendly",
+    "submit": "Request a Free Consultation",
+    "sending": "Sending...",
+    "thankYou": "Thank you!",
+    "thankYouMsg": "I'll get back to you within 24 hours.",
+    "errorMsg": "Something went wrong. Please try again or contact me directly via email.",
+    "errorEmail": "Please enter a valid email address.",
+    "errorPhone": "Please enter a valid number (digits only, max 14).",
+    "privacy": "By submitting this form you accept the privacy policy. Your data will be processed in accordance with GDPR."
+  }
+}

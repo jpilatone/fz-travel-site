@@ -1,0 +1,107 @@
+{
+  "hero": {
+    "eyebrow": "Servizi",
+    "title1": "Cosa posso fare",
+    "title2": "per te.",
+    "subtitle": "Ogni viaggio parte da un'esigenza diversa. Il mio lavoro è ascoltarla, capirla e trasformarla in qualcosa che abbia davvero valore per te."
+  },
+  "method": {
+    "eyebrow": "Il Metodo",
+    "titleBold": "Dal primo ascolto ",
+    "titleAccent": "alla tua esperienza.",
+    "subtitle": "Quattro fasi, un unico obiettivo: costruire un viaggio che abbia valore per te. Ogni passaggio è pensato per accompagnarti con attenzione, dalla prima idea fino al momento in cui parti.",
+    "steps": [
+      {
+        "title": "Ascolto",
+        "shortDesc": "<1>Partiamo da te:</1> le tue idee, le tue esigenze, il tuo modo di viaggiare.",
+        "longDesc": "Il primo passo è sempre una conversazione. Ti faccio le domande giuste per capire cosa stai cercando davvero: non solo una destinazione, ma il tipo di esperienza che vuoi vivere, i tuoi tempi, le tue priorità. Ogni viaggio parte da qui."
+      },
+      {
+        "title": "Proposta",
+        "shortDesc": "<1>Costruisco un itinerario su misura,</1> pensato intorno a ciò che conta per te.",
+        "longDesc": "Sulla base di ciò che emerge dall'ascolto, costruisco una proposta dettagliata: itinerario, strutture, esperienze, tempi. Ogni elemento viene scelto con cura, attingendo alla mia rete di contatti e alla conoscenza diretta delle destinazioni."
+      },
+      {
+        "title": "Confronto",
+        "shortDesc": "<1>Rivediamo insieme ogni dettaglio,</1> fino a trovare l'equilibrio perfetto.",
+        "longDesc": "La proposta non è mai definitiva al primo giro. Ci confrontiamo, aggiustiamo, affiniamo. Ogni dettaglio viene discusso insieme finché il viaggio non rispecchia esattamente ciò che avevi in mente — o qualcosa di ancora migliore."
+      },
+      {
+        "title": "Esperienza",
+        "shortDesc": "<1>Il viaggio prende forma.</1> Tu parti, io resto al tuo fianco.",
+        "longDesc": "Dal momento della partenza, il mio supporto non si ferma. Sono al tuo fianco per assicurarmi che ogni fase del viaggio si svolga come previsto, con la serenità di sapere che qualcuno sta curando ogni aspetto per te."
+      }
+    ]
+  },
+  "why": {
+    "eyebrow": "Perché scegliermi",
+    "titleBold": "I vantaggi di un viaggio ",
+    "titleAccent": "pensato per te.",
+    "subtitle": "Organizzare un viaggio su misura fa la differenza. Ecco cosa puoi aspettarti scegliendo una consulenza dedicata.",
+    "items": [
+      { "title": "Ogni viaggio parte da te", "desc": "Nessun pacchetto preconfezionato. Ogni progetto nasce dall'ascolto delle tue esigenze, prima ancora di scegliere una destinazione." },
+      { "title": "La cura è il metodo", "desc": "L'attenzione ai dettagli guida ogni scelta fin dall'inizio. Itinerari, tempi, strutture ed esperienze vengono pensati con coerenza." },
+      { "title": "Niente ricerche infinite", "desc": "Il percorso è guidato: arrivi più velocemente a soluzioni che funzionano davvero, evitando confronti inutili e decisioni sbagliate." },
+      { "title": "Esperienze costruite, non replicate", "desc": "C'è chi cerca movimento, chi intimità, chi una vera pausa. Ogni viaggio si adatta al tuo modo di viaggiare." },
+      { "title": "Ogni decisione è mirata", "desc": "Il budget viene utilizzato con criterio, concentrando le risorse su ciò che fa davvero la differenza per il viaggio." },
+      { "title": "Parti sereno", "desc": "Che si tratti di un viaggio complesso o di pochi giorni, l'obiettivo è farti partire senza dubbi e senza stress." }
+    ]
+  },
+  "services": {
+    "items": [
+      {
+        "eyebrow": "01",
+        "titleBold": "Itinerari costruiti",
+        "titleItalic": "su misura.",
+        "intro": "Ogni viaggio merita di essere <1>pensato per chi lo vive</1>. Non esistono due viaggiatori uguali, e per questo ogni itinerario che costruisco parte dalla tua storia, dal tuo ritmo, da ciò che ti ispira.",
+        "client": "Che si tratti di un viaggio lungo o di pochi giorni, ti aiuto a progettare itinerari <1>pensati intorno al tuo modo di viaggiare</1>, ai tuoi tempi e a ciò che vuoi vivere. Ti affianco dall'idea iniziale fino alla partenza, perché <2>ogni viaggio è diverso</2> e nessuna richiesta è uguale a un'altra.",
+        "imgAlt": "Progettazione di un itinerario di viaggio su misura",
+        "cta": "Richiedi una consulenza"
+      },
+      {
+        "eyebrow": "02",
+        "titleBold": "Viaggi di coppia, in famiglia,",
+        "titleItalic": "in solitaria o tra amici.",
+        "intro": "Partire in due non è come partire in cinque. Le dinamiche cambiano, le aspettative si moltiplicano, e <1>ogni combinazione richiede un approccio diverso</1>.",
+        "client": "Ogni viaggio ha <1>dinamiche diverse</1>. Lavoro tenendo conto delle persone che partono, dei ritmi, delle aspettative e del tipo di esperienza che si desidera condividere.",
+        "imgAlt": "Viaggiatori che esplorano una destinazione insieme",
+        "cta": "Richiedi una consulenza"
+      },
+      {
+        "eyebrow": "03",
+        "titleBold": "Viaggi",
+        "titleItalic": "pet-friendly.",
+        "intro": "So cosa significa voler partire con <1>chi ami davvero</1>, anche quando ha quattro zampe. È una scelta che richiede attenzione, strutture giuste e un ritmo pensato per tutti.",
+        "client": "Viaggio spesso con il mio cane e so cosa significa voler partire <1>senza lasciare indietro chi fa parte della propria vita</1>. Per questo mi occupo anche di viaggi pet-friendly in Italia, <2>curati nei dettagli</2>, dalla scelta delle strutture, ai servizi dedicati, fino ai ritmi del viaggio, con serenità e buon senso. Il mio supporto si concentra sull'esperienza una volta arrivati, così da garantire attenzione e qualità in ogni aspetto del soggiorno.",
+        "imgAlt": "Viaggio pet-friendly con cane in Italia",
+        "cta": "Richiedi una consulenza"
+      },
+      {
+        "eyebrow": "04",
+        "titleBold": "Ricerca e orientamento tra",
+        "titleItalic": "strutture selezionate.",
+        "intro": "Scegliere dove dormire <1>non è un dettaglio</1>. È una parte fondamentale dell'esperienza. Per questo dedico tempo alla ricerca, al confronto e alla selezione di strutture che facciano davvero la differenza.",
+        "client": "Mi occupo della ricerca delle strutture più adatte alle tue esigenze, attingendo sia a <1>una rete di realtà selezionate</1> e conosciute nel tempo, sia al mercato in generale. Le valuto, le confronto e ti aiuto a orientarti tra le diverse opzioni, per individuare la soluzione che ha <2>più valore per te</2>, in base a ciò che stai cercando.",
+        "imgAlt": "Struttura ricettiva di qualità selezionata",
+        "cta": "Richiedi una consulenza"
+      }
+    ]
+  },
+  "speciale": {
+    "badge": "Speciale",
+    "titleBold": "Esperienze per gruppi ",
+    "titleAccent": "e aziende.",
+    "p1": "Alcune occasioni meritano qualcosa di diverso: momenti pensati per <1>rafforzare un team</1>, premiare collaboratori o semplicemente condividere un'esperienza fuori dall'ordinario.",
+    "p2": "Progetto esperienze pensate per gruppi, aziende o occasioni speciali che desiderano vivere <1>momenti di condivisione</1> fuori dal contesto abituale. Può trattarsi di attività di team building, iniziative di relazione con clienti o semplicemente esperienze da vivere insieme durante un viaggio o un soggiorno. Ogni proposta viene <2>costruita su misura</2> in base al gruppo, agli obiettivi e al tipo di esperienza che si desidera creare.",
+    "bullets": ["Attività nella natura", "Degustazioni", "Gite in barca", "Masterclass di cucina", "Esperienze locali selezionate"],
+    "tagLabel": "Corporate & Groups",
+    "tagValue": "Esperienze su misura",
+    "imgAlt": "Esperienze di gruppo e aziendali",
+    "cta": "Scopri tutte le esperienze"
+  },
+  "statement": {
+    "title": "Non vendo pacchetti.",
+    "subtitle": "Costruisco esperienze intorno alle persone che le vivranno.",
+    "cta": "Inizia da una consulenza gratuita"
+  }
+}

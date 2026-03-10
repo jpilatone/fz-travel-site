@@ -1,0 +1,153 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* =========================================
+   GLOBAL NOISE OVERLAY
+   ========================================= */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  pointer-events: none;
+  opacity: 0.03;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23noise)' opacity='1'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 300px 300px;
+}
+
+/* =========================================
+   BASE STYLES
+   ========================================= */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  /* FZ Palette */
+  background-color: #FBF7F3;        /* ivory */
+  color: #525051;                   /* charcoal */
+  font-family: 'Plus Jakarta Sans', 'Outfit', sans-serif;
+  font-size: 1.1rem;                /* +10% rispetto al default 1rem */
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+}
+
+/* =========================================
+   TYPOGRAPHY UTILITIES
+   ========================================= */
+/* Global paragraph sizing — +2px for all devices */
+p {
+  font-size: calc(1rem + 2px);
+}
+
+.font-serif-drama {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+}
+
+.font-mono-data {
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+/* =========================================
+   MAGNETIC BUTTON BASE
+   ========================================= */
+.btn-magnetic {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.btn-magnetic:hover {
+  transform: scale(1.03);
+}
+
+.btn-magnetic .btn-bg {
+  position: absolute;
+  inset: 0;
+  transform: translateX(-101%);
+  transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.btn-magnetic:hover .btn-bg {
+  transform: translateX(0);
+}
+
+/* =========================================
+   INTERACTIVE ELEMENTS LIFT
+   ========================================= */
+.link-lift {
+  transition: transform 0.2s ease, color 0.2s ease;
+  display: inline-block;
+}
+
+.link-lift:hover {
+  transform: translateY(-1px);
+}
+
+/* =========================================
+   PULSING DOT
+   ========================================= */
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.5; transform: scale(1.3); }
+}
+
+.dot-pulse {
+  animation: pulse-dot 2s ease-in-out infinite;
+}
+
+/* =========================================
+   TYPEWRITER CURSOR BLINK
+   ========================================= */
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+.cursor-blink {
+  animation: blink 1s step-end infinite;
+}
+
+/* =========================================
+   SCROLLBAR
+   ========================================= */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FBF7F3;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #C3AB87;
+  border-radius: 3px;
+}
+
+/* =========================================
+   HERO "ESSERE" GOLD ANIMATION (letter by letter)
+   ========================================= */
+@keyframes letter-gold {
+  0% {
+    color: inherit;
+  }
+  100% {
+    color: #C3AB87;
+    text-shadow: 0 0 15px rgba(195, 171, 135, 0.3);
+  }
+}
+
+.hero-essere-letter {
+  display: inline-block;
+  animation: letter-gold 0.6s ease-out forwards;
+}

@@ -1,0 +1,43 @@
+{
+  "hero": {
+    "eyebrow": "Chi Sono",
+    "title1": "Il percorso dietro",
+    "title2": "al metodo.",
+    "subtitle": "La storia di come un modo di viaggiare è diventato un modo di lavorare."
+  },
+  "story": {
+    "eyebrow": "Origini",
+    "titleBold": "Tutto è nato da un' ",
+    "titleAccent": "esigenza.",
+    "imgAlt": "Francesco — Travel Consultant",
+    "p1": "Volevo organizzare i miei viaggi in modo consapevole, prendendomi cura di ogni dettaglio. Questa attenzione, con l'esperienza, è diventata un metodo.",
+    "p2": "Viaggiando mi sono reso conto che ogni persona parte in modo diverso.\nC'è chi cerca un viaggio itinerante, chi una fuga di coppia, chi un'esperienza tra amici o chi semplicemente un weekend per staccare davvero; è per questo che non ho mai creduto nelle soluzioni standard.",
+    "p3": "Ho viaggiato dall'Europa all'Asia, tra le Americhe e l'Africa, imparando col tempo cosa fa davvero la differenza quando si parte.",
+    "cta": "Parti con me"
+  },
+  "petSection": {
+    "eyebrow": "Compagni di viaggio",
+    "titleBold": "Partire senza rinunciare ",
+    "titleAccent": "a chi ami.",
+    "imgAlt": "Francesco con Tyrion, il suo bulldog inglese",
+    "desc": "Una parte importante di questo percorso è legata anche ai viaggi pet-friendly. Viaggio spesso con il mio bulldog inglese e so cosa significa voler partire senza rinunciare a chi fa parte della propria vita. Questo mi ha insegnato ancora di più quanto conti la qualità delle scelte e l'attenzione dedicata a ogni aspetto dell'esperienza.",
+    "cta": "Scopri i viaggi Pet-Friendly"
+  },
+  "approach": {
+    "eyebrow": "L'approccio",
+    "titleBold": "Ascolto, confronto, ",
+    "titleAccent": "valore.",
+    "desc": "Il mio approccio parte dall'ascolto, dalle domande, dal cercare di capire cosa stai cercando davvero, per costruire il viaggio intorno a te.\nDal confronto, l'idea si trasforma in un'esperienza di reale valore.",
+    "steps": [
+      { "title": "Ascolto", "desc": "Partiamo da te: le tue idee, le tue esigenze, il tuo modo di viaggiare." },
+      { "title": "Proposta", "desc": "Costruisco un itinerario su misura, pensato intorno a ciò che conta per te." },
+      { "title": "Confronto", "desc": "Rivediamo insieme ogni dettaglio, fino a trovare l'equilibrio perfetto." },
+      { "title": "Esperienza", "desc": "Il viaggio prende forma. Tu parti, io resto al tuo fianco." }
+    ]
+  },
+  "statement": {
+    "title": "L'obiettivo è chiaro.",
+    "subtitle": "Aiutarti a costruire la tua vacanza, esattamente come dovrebbe essere.",
+    "cta": "Prenota la tua prima consulenza gratuita"
+  }
+}

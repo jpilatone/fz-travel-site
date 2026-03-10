@@ -1,0 +1,107 @@
+{
+  "hero": {
+    "eyebrow": "Services",
+    "title1": "What I can do",
+    "title2": "for you.",
+    "subtitle": "Every trip starts from a different need. My job is to listen, understand, and turn it into something that truly has value for you."
+  },
+  "method": {
+    "eyebrow": "The Method",
+    "titleBold": "From the first listening ",
+    "titleAccent": "to your experience.",
+    "subtitle": "Four phases, one goal: building a trip that has real value for you. Every step is designed to guide you with care, from the first idea to the moment you depart.",
+    "steps": [
+      {
+        "title": "Listening",
+        "shortDesc": "<1>We start from you:</1> your ideas, your needs, your way of travelling.",
+        "longDesc": "The first step is always a conversation. I ask the right questions to understand what you're really looking for: not just a destination, but the type of experience you want to live, your timing, your priorities. Every trip starts here."
+      },
+      {
+        "title": "Proposal",
+        "shortDesc": "<1>I build a bespoke itinerary,</1> designed around what matters to you.",
+        "longDesc": "Based on what emerges from the listening phase, I build a detailed proposal: itinerary, accommodations, experiences, timing. Every element is chosen with care, drawing on my network of contacts and first-hand knowledge of destinations."
+      },
+      {
+        "title": "Dialogue",
+        "shortDesc": "<1>We review every detail together,</1> until we find the perfect balance.",
+        "longDesc": "The proposal is never final on the first round. We discuss, adjust, refine. Every detail is reviewed together until the trip reflects exactly what you had in mind — or something even better."
+      },
+      {
+        "title": "Experience",
+        "shortDesc": "<1>The trip takes shape.</1> You depart, I stay by your side.",
+        "longDesc": "From the moment you depart, my support doesn't stop. I'm by your side to make sure every phase of the trip goes as planned, with the peace of mind of knowing someone is taking care of every aspect for you."
+      }
+    ]
+  },
+  "why": {
+    "eyebrow": "Why Choose Me",
+    "titleBold": "The advantages of a trip ",
+    "titleAccent": "designed for you.",
+    "subtitle": "A bespoke trip makes all the difference. Here's what you can expect when choosing a dedicated consultation.",
+    "items": [
+      { "title": "Every trip starts from you", "desc": "No pre-packaged solutions. Every project is born from listening to your needs, even before choosing a destination." },
+      { "title": "Care is the method", "desc": "Attention to detail guides every choice from the start. Itineraries, timing, accommodations, and experiences are planned with coherence." },
+      { "title": "No endless searching", "desc": "The journey is guided: you reach solutions that truly work faster, avoiding unnecessary comparisons and wrong decisions." },
+      { "title": "Experiences built, not replicated", "desc": "Some seek adventure, some intimacy, some a real break. Every trip adapts to your way of travelling." },
+      { "title": "Every decision is purposeful", "desc": "Your budget is used wisely, focusing resources on what truly makes a difference for the trip." },
+      { "title": "Depart with peace of mind", "desc": "Whether it's a complex trip or just a few days, the goal is to have you leave without doubts and without stress." }
+    ]
+  },
+  "services": {
+    "items": [
+      {
+        "eyebrow": "01",
+        "titleBold": "Itineraries built",
+        "titleItalic": "bespoke.",
+        "intro": "Every journey deserves to be <1>designed for the person living it</1>. No two travellers are alike, and that's why every itinerary I build starts from your story, your rhythm, from what inspires you.",
+        "client": "Whether it's a long trip or just a few days, I help you design itineraries <1>built around the way you travel</1>, your timing, and what you want to experience. I guide you from the initial idea to departure, because <2>every trip is different</2> and no request is the same as another.",
+        "imgAlt": "Designing a bespoke travel itinerary",
+        "cta": "Request a consultation"
+      },
+      {
+        "eyebrow": "02",
+        "titleBold": "Couples, family,",
+        "titleItalic": "solo or group trips.",
+        "intro": "Travelling as two is not the same as travelling as five. The dynamics change, expectations multiply, and <1>every combination requires a different approach</1>.",
+        "client": "Every trip has <1>different dynamics</1>. I work taking into account the people who are travelling, the rhythms, the expectations, and the type of experience they want to share.",
+        "imgAlt": "Travellers exploring a destination together",
+        "cta": "Request a consultation"
+      },
+      {
+        "eyebrow": "03",
+        "titleBold": "Trips",
+        "titleItalic": "pet-friendly.",
+        "intro": "I know what it means to want to travel with <1>those you truly love</1>, even when they have four paws. It's a choice that requires attention, the right accommodations, and a rhythm designed for everyone.",
+        "client": "I often travel with my dog and I know what it means to want to travel <1>without leaving behind those who are part of your life</1>. That's why I also handle pet-friendly trips in Italy, <2>crafted in every detail</2>, from the choice of accommodations, to dedicated services, to the pace of the trip, with peace of mind and common sense. My support focuses on the experience once you arrive, ensuring attention and quality in every aspect of the stay.",
+        "imgAlt": "Pet-friendly trip with dog in Italy",
+        "cta": "Request a consultation"
+      },
+      {
+        "eyebrow": "04",
+        "titleBold": "Research and guidance among",
+        "titleItalic": "selected accommodations.",
+        "intro": "Choosing where to stay <1>is not a detail</1>. It's a fundamental part of the experience. That's why I dedicate time to researching, comparing, and selecting accommodations that truly make a difference.",
+        "client": "I handle the search for the most suitable accommodations for your needs, drawing from both <1>a network of selected properties</1> known over time, and the general market. I evaluate them, compare them, and help you navigate among the different options, to find the solution that has <2>the most value for you</2>, based on what you're looking for.",
+        "imgAlt": "Quality selected accommodation",
+        "cta": "Request a consultation"
+      }
+    ]
+  },
+  "speciale": {
+    "badge": "Special",
+    "titleBold": "Experiences for groups ",
+    "titleAccent": "and businesses.",
+    "p1": "Some occasions deserve something different: moments designed to <1>strengthen a team</1>, reward collaborators, or simply share an experience out of the ordinary.",
+    "p2": "I design experiences for groups, companies, or special occasions that want to live <1>moments of togetherness</1> outside the usual context. It can be team building activities, client relationship initiatives, or simply experiences to share during a trip or stay. Every proposal is <2>custom-built</2> based on the group, objectives, and the type of experience desired.",
+    "bullets": ["Nature activities", "Tastings", "Boat trips", "Cooking masterclasses", "Selected local experiences"],
+    "tagLabel": "Corporate & Groups",
+    "tagValue": "Bespoke experiences",
+    "imgAlt": "Group and corporate experiences",
+    "cta": "Discover all experiences"
+  },
+  "statement": {
+    "title": "I don't sell packages.",
+    "subtitle": "I build experiences around the people who will live them.",
+    "cta": "Start with a free consultation"
+  }
+}

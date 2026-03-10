@@ -1,0 +1,52 @@
+{
+  "nav": {
+    "chiSono": "Chi Sono",
+    "servizi": "Servizi",
+    "petFriendly": "Pet-Friendly",
+    "faq": "FAQ",
+    "contatti": "Contatti",
+    "consulenza": "Consulenza",
+    "richiediConsulenza": "Richiedi una consulenza",
+    "apriMenu": "Apri menu"
+  },
+  "footer": {
+    "tagline": "Consulenza di viaggio su misura. Dalla prima idea all'ultimo dettaglio.",
+    "available": "DISPONIBILE IN QUESTO MOMENTO",
+    "navigazione": "Navigazione",
+    "social": "Social",
+    "copyright": "FZ Travel Consulting. Tutti i diritti riservati.",
+    "privacy": "Privacy Policy",
+    "cookie": "Cookie Policy"
+  },
+  "contacts": {
+    "eyebrow": "Parliamo",
+    "title": "Parliamo del tuo",
+    "titleAccent": "prossimo viaggio.",
+    "subtitle": "Compila il form per richiedere una consulenza conoscitiva gratuita. Ti ricontatterò entro 24 ore.",
+    "labelFirstName": "Nome",
+    "labelLastName": "Cognome",
+    "labelEmail": "Email",
+    "labelPhone": "Telefono",
+    "labelTravelType": "Tipo di viaggio",
+    "labelMessage": "Messaggio",
+    "placeholderFirstName": "Francesco",
+    "placeholderLastName": "Bianchi",
+    "placeholderEmail": "email@esempio.it",
+    "placeholderPhone": "+39 333 1234567",
+    "placeholderMessage": "Raccontami del tuo prossimo viaggio...",
+    "selectDefault": "Seleziona...",
+    "optionCouple": "Coppia",
+    "optionFamily": "Famiglia",
+    "optionFriends": "Amici",
+    "optionSolo": "Solitario",
+    "optionPet": "Pet-Friendly",
+    "submit": "Richiedi una Consulenza Gratuita",
+    "sending": "Invio in corso...",
+    "thankYou": "Grazie!",
+    "thankYouMsg": "Ti ricontatterò entro 24 ore.",
+    "errorMsg": "Si è verificato un errore. Riprova o contattami direttamente via email.",
+    "errorEmail": "Inserisci un indirizzo email valido.",
+    "errorPhone": "Inserisci un numero valido (solo cifre, max 14).",
+    "privacy": "Inviando questo form accetti la privacy policy. I tuoi dati saranno trattati in conformità con il GDPR."
+  }
+}
