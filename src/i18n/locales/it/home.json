@@ -1,0 +1,134 @@
+{
+  "hero": {
+    "eyebrow": "Travel Consultant ·\u00a0Su misura",
+    "title1": "Il tuo viaggio,",
+    "title2": "esattamente come dovrebbe ",
+    "title2em": "essere.",
+    "subtitle": "Consulenza di viaggio su misura. Dalla prima idea all'ultimo dettaglio.",
+    "cta": "Richiedi una consulenza"
+  },
+  "chiSonoIntro": {
+    "eyebrow": "Chi Sono",
+    "titleBold": "Questo progetto nasce ",
+    "titleAccent": "dal percorso di Francesco.",
+    "tagLabel": "Travel Consultant",
+    "tagName": "Francesco",
+    "imgAlt": "Francesco — Travel Consultant",
+    "p1": "Tutto è nato da un'esigenza personale. Avevo bisogno di organizzare i miei viaggi nel modo giusto per me, di prendermi cura di ogni dettaglio.",
+    "p2": "Nel tempo ho viaggiato attraverso tutti i continenti — Europa, Asia, Americhe, Africa — costruendo esperienze molto diverse tra loro, sempre partendo da un bisogno reale.",
+    "p3": "Oggi lavoro così: ascolto, faccio domande, cerco di capire cosa stai cercando davvero e costruisco un viaggio intorno a te.",
+    "cta": "Scopri la mia storia"
+  },
+  "features": {
+    "eyebrow": "Come posso aiutarti",
+    "titleBold": "Ogni dettaglio, ",
+    "titleAccent": "curato per te.",
+    "items": [
+      {
+        "eyebrow": "01 — Tutto intorno a te",
+        "title": "Itinerari su misura",
+        "desc": "Ti aiuto a progettare itinerari pensati intorno al tuo modo di viaggiare, ai tuoi tempi e a ciò che vuoi vivere."
+      },
+      {
+        "eyebrow": "02 — Viaggia con il tuo amico",
+        "title": "Viaggi Pet-Friendly",
+        "desc": "Viaggio spesso con il mio cane e so cosa significa partire senza lasciare indietro chi fa parte della propria vita."
+      },
+      {
+        "eyebrow": "03 — Viaggia con chi vuoi",
+        "title": "Viaggi di coppia, solitari o di gruppo",
+        "desc": "Ogni viaggio ha dinamiche diverse. Lavoro tenendo conto delle persone che partono."
+      },
+      {
+        "eyebrow": "04 — Scelti per voi",
+        "title": "Strutture ed Esperienze Selezionate",
+        "desc": "Mi occupo della ricerca delle strutture più adatte. Le valuto, le confronto e ti aiuto a orientarti."
+      }
+    ]
+  },
+  "philosophy": {
+    "subtitle": "La maggior parte dei viaggi si costruisce intorno a pacchetti standard, offerte preconfezionate e soluzioni generiche.",
+    "titleBold": "Io costruisco il viaggio",
+    "titleAccent": "intorno a te.",
+    "date": "Dal 2019 — Italia e oltre",
+    "cta": "Prenota la tua consulenza"
+  },
+  "protocol": {
+    "eyebrow": "Il Metodo",
+    "titleBold": "Come lavoro ",
+    "titleAccent": "con te.",
+    "steps": [
+      {
+        "title": "Condividi i tuoi desideri",
+        "desc": "Tutto inizia dalle tue idee. Raccontami cosa hai in mente: destinazioni, date, esperienze speciali che vorresti includere."
+      },
+      {
+        "title": "Ricevi la tua proposta su misura",
+        "desc": "Traduciamo i tuoi desideri in un itinerario personalizzato. Una proposta senza impegno, pensata per ispirarti."
+      },
+      {
+        "title": "Affina e conferma",
+        "desc": "Insieme mettiamo a punto i dettagli finché ogni elemento non si adatta perfettamente alla tua visione. Ogni scelta, curata."
+      },
+      {
+        "title": "Viaggia con serenità",
+        "desc": "Dal momento della partenza fino al tuo ritorno, sono al tuo fianco per assicurarmi che ogni fase del tuo viaggio si svolga senza sforzo."
+      }
+    ],
+    "cta1": "PRENOTA UNA CHIAMATA",
+    "cta2": "CONTATTAMI VIA EMAIL"
+  },
+  "pet": {
+    "eyebrow": "Pet-Friendly",
+    "titleBold": "Perché lasciare a casa chi ti fa sentire ",
+    "titleAccent": "davvero in vacanza?",
+    "desc": "Viaggiare con il proprio cane è possibile e può essere bellissimo, se tutto è organizzato nel modo giusto. Come <1>Travel Consultant</1> specializzato in viaggi pet-friendly, ti aiuto a costruire esperienze su misura per te e il tuo compagno di viaggio a quattro zampe.",
+    "bullets": [
+      "Creazione di itinerari personalizzati",
+      "Ricerca di strutture pet-friendly di qualità",
+      "Consulenza individuale e personalizzata"
+    ],
+    "badgeLabel": "Specializzazione",
+    "badgeValue": "Pet-Friendly Travel",
+    "imgAlt": "Viaggi pet-friendly con il tuo cane",
+    "cta": "Scopri i viaggi Pet-Friendly"
+  },
+  "social": {
+    "titleBold": "Ogni viaggio, ",
+    "titleAccent": "una storia da vivere.",
+    "desc": "Ogni destinazione racconta qualcosa. Seguimi sui social per scoprire i viaggi che creo e le esperienze che consiglio."
+  },
+  "faq": {
+    "eyebrow": "Domande Frequenti",
+    "titleBold": "Hai dubbi? ",
+    "titleAccent": "Ho le risposte.",
+    "subtitle": "Ecco le risposte alle domande più comuni. Se hai altre curiosità, scrivimi attraverso il form di contatto.",
+    "cta": "Contattami per altre domande →",
+    "items": [
+      {
+        "q": "Che tipo di viaggi segui?",
+        "a": "Progetto itinerari su misura per viaggi di coppia, in famiglia, in solitaria o tra amici; weekend e fughe brevi, oppure viaggi più lunghi. Seguo anche viaggi pet-friendly in Italia."
+      },
+      {
+        "q": "Come funziona la consulenza?",
+        "a": "Si parte sempre da una consulenza conoscitiva. In base alle tue esigenze, definiamo insieme il livello di supporto e costruiamo il viaggio passo dopo passo."
+      },
+      {
+        "q": "Vendi pacchetti di viaggio?",
+        "a": "No. Non propongo soluzioni preconfezionate: progetto esperienze su misura e ti aiuto a fare scelte consapevoli, costruendo il viaggio intorno alle tue esigenze."
+      },
+      {
+        "q": "Prenoti tu per me?",
+        "a": "No. Ti aiuto a progettare il viaggio, a valutare le opzioni e a orientarti nelle scelte. Le prenotazioni vengono effettuate direttamente dal cliente."
+      },
+      {
+        "q": "Quanto costa una consulenza?",
+        "a": "Il costo dipende dal tipo di viaggio e dal livello di supporto richiesto. Viene definito in modo chiaro dopo la consulenza conoscitiva."
+      },
+      {
+        "q": "Ti occupi anche di viaggi pet-friendly?",
+        "a": "Sì. Viaggio spesso con il mio cane e so quanto contino i dettagli. Seguo viaggi pet-friendly in Italia con un livello di attenzione dedicato: strutture realmente adatte, servizi pensati per il benessere dell'animale e un'esperienza curata in ogni aspetto."
+      }
+    ]
+  }
+}
