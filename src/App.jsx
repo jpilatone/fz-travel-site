@@ -108,7 +108,7 @@ function Navbar() {
         <a
           href="/"
           className="font-outfit text-xl shrink-0"
-          style={{ fontWeight: 800, color: logoColor, letterSpacing: '-0.04em' }}
+          style={{ fontWeight: 300, color: logoColor, letterSpacing: '0.08em' }}
         >
           FZ
         </a>
@@ -459,7 +459,7 @@ function ChiSonoIntro() {
 // ============================================================
 const featureImages = [
   'https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=400&q=80&auto=format&fit=crop',
-  'https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=400&q=80&auto=format&fit=crop',
+  '/cane-viaggio.jpg',
   'https://images.unsplash.com/photo-1539635278303-d4002c07eae3?w=400&q=80&auto=format&fit=crop',
   'https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=400&q=80&auto=format&fit=crop',
 ];
@@ -1198,7 +1198,10 @@ function Footer() {
       <div className="max-w-6xl mx-auto">
         <div className="grid md:grid-cols-4 gap-10 mb-16">
           <div className="md:col-span-2">
-            <p className="font-outfit font-bold text-4xl mb-3" style={{ letterSpacing: '-0.04em', color: COLORS.white }}>FZ</p>
+            <div className="mb-3" style={{ display: 'inline-flex', flexDirection: 'column', alignItems: 'stretch' }}>
+              <p className="font-outfit text-4xl mb-0 leading-none" style={{ fontWeight: 300, letterSpacing: '0.08em', color: COLORS.white }}>FZ</p>
+              <span className="font-outfit" style={{ fontWeight: 300, fontSize: '4.5px', color: COLORS.white, textTransform: 'uppercase', marginTop: '2px', display: 'flex', justifyContent: 'space-between', width: '100%' }}>{'TRAVEL CONSULTING'.split('').map((ch, i) => <span key={i} style={{ display: 'inline-block', minWidth: ch === ' ' ? '2px' : 0 }}>{ch}</span>)}</span>
+            </div>
             <p className="font-sans text-sm max-w-xs leading-relaxed" style={{ color: COLORS.greyMid }}>
               {t('footer.tagline')}
             </p>
@@ -1244,7 +1247,7 @@ function Footer() {
           </div>
         </div>
         <div className="border-t mb-8" style={{ borderColor: `${COLORS.white}12` }} />
-        <div className="flex flex-wrap justify-between items-center gap-4 text-xs font-mono-data" style={{ color: `${COLORS.white}30` }}>
+        <div className="flex flex-wrap justify-between items-center gap-4 font-mono-data" style={{ fontSize: '12px', color: `${COLORS.white}30` }}>
           <p>&copy; {year} {t('footer.copyright')}</p>
           <div className="flex gap-6">
             <a href="#" className="hover:opacity-70 transition-opacity">{t('footer.privacy')}</a>
