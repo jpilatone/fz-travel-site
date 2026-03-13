@@ -1247,9 +1247,9 @@ function Footer() {
           </div>
         </div>
         <div className="border-t mb-8" style={{ borderColor: `${COLORS.white}12` }} />
-        <div className="flex flex-wrap justify-between items-center gap-4 font-mono-data" style={{ fontSize: '12px', color: `${COLORS.white}30` }}>
-          <p>&copy; {year} {t('footer.copyright')}</p>
-          <div className="flex gap-6">
+        <div className="flex flex-wrap justify-between items-center gap-4 font-mono-data" style={{ color: `${COLORS.white}30` }}>
+          <p style={{ fontSize: '12px', margin: 0 }}>&copy; {year} {t('footer.copyright')}</p>
+          <div className="flex gap-6" style={{ fontSize: '12px' }}>
             <a href="#" className="hover:opacity-70 transition-opacity">{t('footer.privacy')}</a>
             <a href="#" className="hover:opacity-70 transition-opacity">{t('footer.cookie')}</a>
           </div>

@@ -65,6 +65,7 @@ export default function Contacts() {
     { value: 'amici', label: t('contacts.optionFriends') },
     { value: 'solitario', label: t('contacts.optionSolo') },
     { value: 'pet-friendly', label: t('contacts.optionPet') },
+    { value: 'business', label: t('contacts.optionBusiness') },
   ];
 
   const isLoading = status === 'loading';
