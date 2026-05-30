@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { COLORS } from '../constants';
-import { supabase } from '../lib/supabase';
+import { getSupabase } from '../lib/supabase';
 
 export default function Contacts() {
   const { t, i18n } = useTranslation('common');
@@ -39,23 +39,30 @@ export default function Contacts() {
     setStatus('loading');
     setErrorMsg('');
 
-    const { error } = await supabase.from('contacts').insert({
-      nome: formData.nome.trim(),
-      cognome: formData.cognome.trim(),
-      email: formData.email.trim().toLowerCase(),
-      telefono: formData.telefono.trim() || null,
-      tipo_viaggio: formData.tipoViaggio || null,
-      messaggio: formData.messaggio.trim() || null,
-      lingua: i18n.language,
-      pagina: window.location.pathname,
-    });
+    try {
+      const supabase = getSupabase();
+      const { error } = await supabase.from('contacts').insert({
+        nome: formData.nome.trim(),
+        cognome: formData.cognome.trim(),
+        email: formData.email.trim().toLowerCase(),
+        telefono: formData.telefono.trim() || null,
+        tipo_viaggio: formData.tipoViaggio || null,
+        messaggio: formData.messaggio.trim() || null,
+        lingua: i18n.language,
+        pagina: window.location.pathname,
+      });
 
-    if (error) {
-      console.error('Supabase insert error:', error);
+      if (error) {
+        console.error('Supabase insert error:', error);
+        setStatus('error');
+        setErrorMsg(t('contacts.errorMsg'));
+      } else {
+        setStatus('success');
+      }
+    } catch (err) {
+      console.error('Supabase error:', err);
       setStatus('error');
       setErrorMsg(t('contacts.errorMsg'));
-    } else {
-      setStatus('success');
     }
   };
 
