@@ -55,7 +55,7 @@ function LanguageSwitcher({ variant = 'floating' }) {
   return (
     <button
       onClick={toggle}
-      className="hidden md:flex fixed top-5 z-50 items-center gap-1.5 px-4 py-2 rounded-full backdrop-blur-md border shadow-sm font-mono-data text-xs tracking-widest transition-all duration-500"
+      className="hidden md:flex fixed top-5 z-50 items-center gap-1.5 px-3 py-2 rounded-full backdrop-blur-md border shadow-sm font-mono-data text-[11px] tracking-widest transition-all duration-500"
       style={{ right: '1rem', backgroundColor: bg, borderColor: border, color: txtColor }}
     >
       <span style={{ opacity: current === 'it' ? 1 : 0.4, fontWeight: current === 'it' ? 700 : 400 }}>IT</span>
@@ -95,10 +95,9 @@ function Navbar() {
 
   return (
     <nav
-      className="fixed top-4 left-1/2 -translate-x-1/2 z-50 px-6 py-3 rounded-3xl backdrop-blur-md border shadow-sm transition-all duration-500"
+      className="fixed top-4 left-1/2 -translate-x-1/2 z-50 px-5 md:px-6 py-3 rounded-3xl backdrop-blur-md border shadow-sm transition-all duration-500 w-[calc(100%-2rem)] md:w-[calc(100%-9rem)] lg:w-[calc(100%-11rem)]"
       style={{
-        width: 'calc(100% - 2rem)',
-        maxWidth: '900px',
+        maxWidth: '820px',
         backgroundColor: navBg,
         borderColor: navBorder,
       }}
@@ -114,7 +113,7 @@ function Navbar() {
         </a>
 
         {/* Desktop links */}
-        <div className="hidden md:flex items-center gap-7">
+        <div className="hidden md:flex items-center gap-5 lg:gap-7">
           {navLinks.map((link) => (
             <a
               key={link.href}
