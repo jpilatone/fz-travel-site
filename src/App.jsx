@@ -977,7 +977,7 @@ function Social() {
   }, []);
 
   const socialLinks = [
-    { icon: <Instagram className="w-4 h-4" />, handle: 'Instagram', href: 'https://www.instagram.com/francesco_zaccagnino/' },
+    { icon: <Instagram className="w-4 h-4" />, handle: 'Instagram', href: 'https://www.instagram.com/fztravelconsulting/' },
     { icon: <Music2 className="w-4 h-4" />, handle: 'TikTok', href: 'https://www.tiktok.com/@francesco_zaccagnino' },
     { icon: <Facebook className="w-4 h-4" />, handle: 'Facebook', href: '#' },
   ];
@@ -995,8 +995,8 @@ function Social() {
   return (
     <section ref={sectionRef} className="py-24 px-6 md:px-16 overflow-hidden" style={{ backgroundColor: COLORS.ivory }}>
       <div className="max-w-6xl mx-auto">
-        {/* Header — two columns, aligned top */}
-        <div className="flex flex-col md:flex-row md:justify-between gap-6 mb-16 md:items-start">
+        {/* Header — two columns, right block aligned to title baseline */}
+        <div className="flex flex-col md:flex-row md:justify-between gap-6 mb-16 md:items-end">
           <h2
             className="font-outfit font-bold leading-tight md:flex-1"
             style={{ fontSize: 'clamp(2rem, 5vw, 3.5rem)', letterSpacing: '-0.03em', color: COLORS.charcoal }}
@@ -1006,7 +1006,7 @@ function Social() {
               {t('social.titleAccent')}
             </span>
           </h2>
-          <div className="flex flex-col gap-4 md:max-w-sm md:text-right shrink-0 md:pt-2">
+          <div className="flex flex-col gap-4 md:max-w-sm md:text-right shrink-0 md:pb-2">
             <p className="font-sans text-sm leading-relaxed" style={{ color: COLORS.greyMid }}>
               {t('social.desc')}
             </p>
@@ -1226,7 +1226,7 @@ function Footer() {
             <p className="font-mono-data text-xs tracking-widest uppercase mb-5" style={{ color: `${COLORS.white}40` }}>{t('footer.social')}</p>
             <ul className="flex flex-col gap-3">
               {[
-                { label: 'Instagram', href: 'https://www.instagram.com/francesco_zaccagnino/' },
+                { label: 'Instagram', href: 'https://www.instagram.com/fztravelconsulting/' },
                 { label: 'TikTok', href: 'https://www.tiktok.com/@francesco_zaccagnino' },
                 { label: 'Facebook', href: '#' },
               ].map((s) => (
